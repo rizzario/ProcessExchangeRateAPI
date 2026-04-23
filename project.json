@@ -1,14 +1,15 @@
 {
-  "name": "Process_GetMonthlyExchangeRate",
+  "name": "Process_GetMonthlyExchangeRate_API",
   "projectId": "8715b3f9-07bb-43cd-a770-ad3e0d8fbbd0",
-  "description": "Get monthly exchange rate , fill in Excel template and send email to all concern",
+  "description": "Get monthly exchange rate , fill in Excel template and send email to all concern using API",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.24.3]",
     "UiPath.Form.Activities": "[25.2.0]",
     "UiPath.Mail.Activities": "[1.23.11]",
     "UiPath.System.Activities": "[24.11.0-preview]",
-    "UiPath.UIAutomation.Activities": "[24.11.1-preview]"
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -37,7 +38,6 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
-      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {

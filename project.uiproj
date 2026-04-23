@@ -1,0 +1,6 @@
+{
+  "Name": "Process_GetMonthlyExchangeRate_API",
+  "ProjectType": "Process",
+  "Description": "Get monthly exchange rate , fill in Excel template and send email to all concern using API",
+  "MainFile": "Main.xaml"
+}
